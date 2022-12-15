@@ -5,7 +5,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "npx parcel src/index.pug",
-    "build": "npx parcel build src/index.pug",
+    "build": "npx parcel build src/index.pug --no-optimize",
     "clean": "rimraf ./dist/*"
   },
   "keywords": [],
